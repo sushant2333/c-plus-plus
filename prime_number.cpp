@@ -8,8 +8,10 @@ bool isprime(int n){
     int count_factor = 2;
     for (int i = 2; i <= n / 2; i++)
     {
-        if (n % i == 0)
+        if (n % i == 0){
             count_factor++;
+            break;
+        }
     }
     if (count_factor > 2)
         return false;
