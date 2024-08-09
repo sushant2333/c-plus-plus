@@ -1,3 +1,5 @@
+// this program is find out the largest prime factor of a number entered by a user
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -13,6 +15,10 @@ int prime(int n){
 }
 
 void great_prime(int n){
+    if(n<=0){
+        cout<<"the number you entered is either 0 or negative whose factor does not exist"<<endl;
+        return;
+    }
     vector<int> factors;
     for(int i=2;i<=n;i++){
         if(n%i==0){
