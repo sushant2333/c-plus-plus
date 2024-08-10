@@ -1,3 +1,5 @@
+// This program is to calculate greatest common divisor (gcd) between two number using algorithm known as Euclidian Algorithm
+
 #include <iostream>
 using namespace std;
 
