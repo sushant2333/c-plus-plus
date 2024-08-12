@@ -1,3 +1,5 @@
+// program to find out the next prime number after a given number
+
 #include<iostream>
 #include<cmath>
 using namespace std;
